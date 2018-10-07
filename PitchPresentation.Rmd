@@ -1,0 +1,54 @@
+---
+title: "Developing Data Products - Course Project"
+author: "Andualem Bekele"
+highlighter: highlight.js
+hitheme: tomorrow
+job: October 4, 2018
+subtitle: Pitch Presentation
+framework: io2012
+widgets: []
+mode        : selfcontained # {selfcontained }
+
+--- 
+
+## Introduction
+
+
+This presentation is created as part of the requirement for the Coursera course "Developing Data Products. The objectives of the assignment are to ensure sound understanding of the following concepts
+
+  a. shiny to build data product application 
+  
+  b. slidify to create data product related pitch presentations
+
+--- .class #id
+
+## The Application
+
+The application lets you select the best car for your trip based on specific parameters. The application enables a user to play freely with multiple parameters and perform interactive data analysis from a set of user specified criterias and recommend the best possible car for a trip.
+
+
+User can specify the following parameters. 
+
+1.  Selling price of gasoline (USD/gallon).
+2.  Limit of money to be spent on gasoline.
+3.  Desired travel distance in miles.
+4.  Number of Cylinders
+5.  Displacement
+6.  Horsepower
+7.  Transmission
+
+--- .class #id
+
+## How it Works
+Once the user selects the preferred criteria from the list of available options, the best possible car is displayed in the result pane, which helps the user make the right decision for the trip.
+
+The result will be dispalyed in a table. User can sort the results by the column with the feature that means the most to user by clicking the arrows at the top of the table and the best car for the trip will be the first car that is displayed on the table.
+
+--- .class #id
+
+## The Data
+The data used in the app comes from the Motor Trend Car Road Tests (mtcars) dataset. The data was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles (1973-74 models). A brief look into the the data is shown below:
+
+``` {r}
+head(mtcars)
+```

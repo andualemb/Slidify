@@ -1,0 +1,23 @@
+---
+title: "aaa"
+author: "Andualem Bekele"
+date: "September 30, 2018"
+output: html_document
+---
+
+
+## R Markdown
+
+The application will select the best car that matches your criterias for your trip. The application was developed for the Coursera project course  "Developing Data Products" Course. The underlying data used in the application is the mtcars dataset from[R].
+
+You will need to select a number parameters for the application to recommend a car. First, you need to enter the distance of your trip and the price of gasoline per gallon in your area. This information will be used to determine the cost of gas for the trip depending on the coice of your car. 
+
+Second, you need to enter the maximum amount of money you want to spend on gas. This value will eliminate cars that will not travel the distance of your trip using their mpg data and displays only cars that meet the condition. 
+
+Third, you can choose some features of the cars that you want like; Cylinders, Power and Transmission. Again the application will filter out cars that do not fit your selections. 
+
+Fourth, sort the table by the column that has the feature that means the most to you by clicking the arrows at the top of the table and the best car for your trip is the first car that is displayed on the table.
+
+Source code for ui.R and server.R files are available on the GitHub.
+
+Good Luck
